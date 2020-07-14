@@ -1,0 +1,13 @@
+{
+    "bucketName": "experiandevbucketname",
+    "authPolicyName": "s3_amplify_9ec46671",
+    "unauthPolicyName": "s3_amplify_9ec46671",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authPermissions": "rw",
+    "unauthPermissions": "r"
+}

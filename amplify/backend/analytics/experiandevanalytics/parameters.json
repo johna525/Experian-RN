@@ -1,0 +1,20 @@
+{
+    "appName": "experiandevanalytics",
+    "roleName": "pinpointLambdaRole9e744fe1",
+    "cloudWatchPolicyName": "cloudWatchPolicy9e744fe1",
+    "pinpointPolicyName": "pinpointPolicy9e744fe1",
+    "authPolicyName": "pinpoint_amplify_9e744fe1",
+    "unauthPolicyName": "pinpoint_amplify_9e744fe1",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

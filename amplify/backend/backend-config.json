@@ -1,0 +1,29 @@
+{
+	"auth": {
+		"cognito92ccbf4e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"api": {
+		"experiandevapi": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY"
+			}
+		}
+	},
+	"storage": {
+		"experiandevbucket": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"experiandevanalytics": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
